@@ -12,6 +12,27 @@ body {
     min-height: 100vh;
   }
 
+h3 {
+  text-align: middle;
+  margin-top: 50px;
+  text-align: center;
+  font-size: 60px;
+  font-family: 'Comfortaa';
+  color: #ffffcc;
+  text-shadow: 0 0 5px #fff,
+      0 0 10px #fff,
+      0 0 20px rgb(255, 238, 0),
+      0 0 30px rgb(188, 199, 29),
+      0 0 40px rgb(250, 247, 63),
+      0 0 55px rgb(221, 228, 127),
+      0 0 70px rgb(220, 227, 113);
+}
+
+.banner {
+  float: center;
+  color: yellow;
+  
+}
 /* Add a black background color to the top navigation */
 .topnav {
   border-radius: 25px;
