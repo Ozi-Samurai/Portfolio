@@ -5,27 +5,91 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <link href='https://fonts.googleapis.com/css?family=Comfortaa' rel='stylesheet'>
     <link rel="stylesheet" href="styles.css">
-<title>CTE Portfolio</title>
+<title>Jobs</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
-<script>
-    alert('Thank you for visiting.');
-</script>
 <body>
-    <div class="banner">
-      <h3>Deadline TBD - Spring 2026</h3>
-    </div>
     <div class="topnav">
-        <a class="Portfolio.html" href="#home">Home</a>
+      <a class="Portfolio.html" href="Portfolio.html">Home</a>
         <a href="contact.html">Contact</a>
-        <a href="about.html">About</a>
+        <a href="about.html">College and Career Plans</a>
         <a href="cfm.html">CFM</a>
         <a href="programming.html">Programming</a>
         <a href="hardwaresoftware forensics.html">Hard/Software Forensics</a>
         <a href="helpdesk.html">Help Desk</a>
         <a href="jobs.html">Jobs</a>
       </div>
-<h1>CTE Portfolio</h1>
-<h2>Giovanni Capria</h2>
-<p>This is a collection of my work while completing my CTE strand here in the West Genesee Central School District.</p>
+<h1>Jobs</h1>
+<p>This is the information regarding Jobs.</p>
+<p>I have not yet completed my job shadowing. I have, however, completed a Summer job.</p>
+
+<!-- Slideshow container -->
+<div class="slideshow-container">
+    <!-- Full-width images with number and caption text -->
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 5</div>
+      <img src="comp1.jpeg" style="width:100%">
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 5</div>
+      <img src="comp2.png" style="width:100%">
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 5</div>
+      <img src="comp3.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">4 / 5</div>
+      <img src="comp4.png" style="width:100%">
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">5 / 5</div>
+      <img src="comp5.jpg" style="width:100%">
+    </div>
+
+    <div style="text-align:center">
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+      <span class="dot"></span>
+      <span class="dot"></span>
+    </div>
+
+    <script>
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 3000); // Change image every 2 seconds
+}
+</script>
+<div class="afirst">
+  <div class="left">
+  <a href="https://www.invent.org/blog/trends-stem/benefits-career-technical-training#:~:text=Enhancement%20of%20other%20skills%3A%20Research,are%20crucial%20for%20all%20careers." class="button">The Proven Benefits of Career and Technical Training</a>
+  </div>
+
+  <div class="right">
+    <a href="https://core-docs.s3.us-east-1.amazonaws.com/documents/asset/uploaded_file/4048/WGHS/3603882/WG_CTE_Strands_Update.pdf" class="button">West Genesee CTE</a>
+  </div>
+<div class="asecond">
+  <p>I have not yet recived either of these documents.</p>
+  </div>
+  </div>
