@@ -248,3 +248,25 @@ a.button {
  top: 100%;
  left: 0;
 }
+
+/* Dashed border */
+hr.dashed {
+  border-top: 3px dashed #bbb;
+}
+
+/* Dotted border */
+hr.dotted {
+  border-top: 3px dotted #bbb;
+}
+
+/* Solid border */
+hr.solid {
+  border-top: 100px solid blueviolet;
+}
+
+/* Rounded border */
+hr.rounded {
+  border-top: 15px solid #bbb;
+  border-radius: 15px;
+  border-color: blueviolet;
+}
